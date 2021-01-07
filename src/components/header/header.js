@@ -5,7 +5,7 @@ import { ReactComponent as Logo } from "../../assets/crown.svg";
 
 const Header = () => (
   <div className="header">
-    <Link classname="logo-container" to="/">
+    <Link className="logo-container" to="/">
       <Logo className="logo" />
     </Link>
     <div className="options">
@@ -14,6 +14,9 @@ const Header = () => (
       </Link>
       <Link className="option" to="/contact">
         CONTACT
+      </Link>
+      <Link className="option" to="/signin">
+        SIGN IN
       </Link>
     </div>
   </div>
